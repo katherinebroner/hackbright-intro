@@ -9,10 +9,10 @@ def larger (num1, num2, num3):
 	if num1 > num2:
 		if num1 > num3:
 			print num1
-		else:
-			print num3
+	elif num2 > num3: 
+			print num2
 	else:
-		print num2
+		print num3
 
 larger (4,63,32)
 
@@ -20,10 +20,10 @@ def smaller (num1, num2, num3):
 	if num1 < num2:
 		if num1 < num3:
 			print num1
-		else:
-			print num3
+	elif num2 < num3:
+			print num2
 	else: 
-		print num2
+		print num3
 
 smaller (4,63,32)
 	
