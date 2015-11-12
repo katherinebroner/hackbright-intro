@@ -9,26 +9,21 @@ def larger (num1, num2, num3):
 	if num1 > num2:
 		if num1 > num3:
 			print num1
-	elif num2 > num3:
-		print num2
+		else:
+			print num3
 	else:
-		print num3
+		print num2
 
-larger (8, 10, 12)
-
-def smaller_1 (num1, num2):
-	if num1<num2:
-		print num1
-
-smaller_1(False, True)
+larger (4,63,32)
 
 def smaller (num1, num2, num3):
 	if num1 < num2:
 		if num1 < num3:
 			print num1
-	elif num2 < num3:
+		else:
+			print num3
+	else: 
 		print num2
-	else:
-		print num3
 
-smaller(10,8,21)
+smaller (4,63,32)
+	

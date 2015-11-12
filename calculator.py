@@ -19,10 +19,10 @@ def power(base,exponent):
 def square (num):
 	return num ** 2
 
-print add(4,5) + subtract(9,6)
-print divide (12,2) - 60
-print add(1,2) + 3
-print square (add (1,2))
-print float(modulo(3,4)/multiply(9,9))
+age = add(30,4)
+height = subtract(78,2)
+weight = multiply(6,24)
+iq = divide(100,2)
 
+print "Age: %d, Height: %d, Weight: %d, IQ: %d" % (age, height, weight, iq)
 

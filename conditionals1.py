@@ -25,31 +25,35 @@ else:
 	print "Yeah, it's the weekend!"
 
 age = 17
-if age>=18: 
-	print "Yay! I can vote!"
+if age >= 21:
+	print "I can go to a bar."
+elif age >= 18 and age <= 21:
+	print "I can vote but I cannot go to a bar."
 else:
-	print "Aww, I cannot vote."
+	print "I cannot vote or go to a bar."
 
-age = 17
-if age>=21:
-	print "I can go to a bar" 
-elif age>=18 and age<21:
-	print "I can vote but I cannot go to a bar"
-else:
-	print "I cannot vote or go to a bar"
-
-if 8 % 2 == 0 and 9 % 2 == 0:
+num1 = 8
+num2 = 9
+if num1 % 2 == 0 and num2 % 2 == 0:
 	print "Both numbers are even."
-elif 8 % 2 == 0 and 9 % 3 == 0:
-	print "8 is even and 9 is odd."
+elif num1 % 2 == 0 and num2 % 2 == 1:
+	print "%d is even and %d is odd." % (num1, num2)
+elif num1 % 2 == 1 and num2 % 2 == 0:
+	print "%d is odd and %d is even." % (num1, num2)
 else:
 	print "Both numbers are odd."
 
-favorite_color="blue"
-if favorite_color=="blue" or favorite_color=="yellow" or favorite_color=="red":
-	print "My favorite color is a primary color!"
+favorite_color = "red"
+if favorite_color == "blue" or favorite_color == "yellow" or favorite_color == "red":
+	print "My favorite color is a primary color."
 else:
-	print "My favorite color is a secondary color." 
+	print "My favorite color is a secondary color."
+
+
+
+
+	
+
 
 
 
